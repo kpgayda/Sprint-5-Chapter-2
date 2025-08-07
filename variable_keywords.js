@@ -21,3 +21,41 @@ const radius = 5;
 console.log(radius);
 //radius = 8; //this will give an error!
 //console.log(radius); //this will give an error!
+
+//variable_name.length
+
+/* you can determine the amount of items or indexes
+within a variable using  the variable_name.length
+property*/
+
+let message = "Hello!";
+console.log(message.length); //6
+let array = ["Aron", "Loraine", "Mia", "Chase"];
+console.log(array.length); //4
+console.log(array[2]); //Mia
+console.log(array[2].length); //3
+
+//indexOf(), includes(), startsWith(), and endsWith()
+
+/*the indexOf() method takes a character and
+yields the first index of the string to which
+the character belongs*/
+
+let person_name = array[2];
+console.log(person_name);
+console.log(person_name.indexOf("M"));
+
+/*the includes() method takes a character
+within a word or word within a sentence
+and indicates wether or not that character
+or word is in that word or sentence*/
+
+console.log(person_name.includes("a")); //true
+
+/*The startsWith() and endsWith() methods 
+work similar to indexOf. They take characters 
+and determine weather or not the character
+begins with or ends with that character chosen.*/
+
+console.log(person_name.startsWith("M")); //true
+console.log(person_name.endsWith("a")); //true
