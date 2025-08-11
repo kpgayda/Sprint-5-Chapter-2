@@ -59,3 +59,23 @@ begins with or ends with that character chosen.*/
 
 console.log(person_name.startsWith("M")); //true
 console.log(person_name.endsWith("a")); //true
+
+//toLowerCase(), toUpperCase(), split(), and slice()
+
+//toLowerCase() takes a string and converts all upper case letters to lower case
+console.log(person_name.toLocaleLowerCase()); //mia
+//toUpperCase() takes a string and converts all lower case letters to upper case
+console.log(person_name.toUpperCase()); //MIA
+//slice(a, b) takes two numbers a and b and includes only the letters in between a and b including a and excluding b
+console.log(person_name.slice(1, 2)); //i
+console.log(person_name.split(" "));
+
+//let, const, and var
+//indexOf()
+//includes()
+//startsWith()
+//endsWith()
+//toLowerCase()
+//toUpperCase()
+//split()
+//splice()
